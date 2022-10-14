@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: 'Kanit', sans-serif;
+    font-size: xx-large;
+}
